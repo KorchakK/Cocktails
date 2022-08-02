@@ -16,6 +16,10 @@
 ![Screen](Example/Screen7.png)
 ![Screen](Example/Screen8.png)
 
+## Install
+
+Fully work from `Cocktails.xcworkspace`
+
 ## Author
 
 Konstantin Korchak

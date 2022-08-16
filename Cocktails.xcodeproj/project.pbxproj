@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4443E5AF28A51D3600875DB1 /* FavoriteModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4443E5AD28A51D3600875DB1 /* FavoriteModel.xcdatamodeld */; };
+		4469E28428A6B47F0003C0C4 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469E28328A6B47F0003C0C4 /* CoreDataManager.swift */; };
 		4470D9F82899623900CA5D11 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4470D9F72899623900CA5D11 /* README.md */; };
 		4470DA01289964A100CA5D11 /* Screen6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4470D9F9289964A100CA5D11 /* Screen6.png */; };
 		4470DA03289964A100CA5D11 /* Screen7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4470D9FB289964A100CA5D11 /* Screen7.png */; };
@@ -46,6 +48,8 @@
 
 /* Begin PBXFileReference section */
 		313431785CDDE4F62D63987A /* Pods_MVVM_C_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_C_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4443E5AE28A51D3600875DB1 /* FavoriteModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavoriteModel.xcdatamodel; sourceTree = "<group>"; };
+		4469E28328A6B47F0003C0C4 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		4470D9F72899623900CA5D11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4470D9F9289964A100CA5D11 /* Screen6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen6.png; sourceTree = "<group>"; };
 		4470D9FB289964A100CA5D11 /* Screen7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen7.png; sourceTree = "<group>"; };
@@ -107,6 +111,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4443E5AC28A51CFF00875DB1 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				4443E5AD28A51D3600875DB1 /* FavoriteModel.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
 		447437F4287CA05D00C2888F = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +148,7 @@
 				4492D5F4287DB1B900673D2A /* Elements */,
 				4492D6262886CC3500673D2A /* Helpers */,
 				4492D5EF287D921800673D2A /* Services */,
+				4443E5AC28A51CFF00875DB1 /* Core Data */,
 				44743815287CA0D100C2888F /* Setup */,
 				44743814287CA07200C2888F /* Launchscreen */,
 				44743816287CA0EF00C2888F /* Resourses */,
@@ -194,6 +207,7 @@
 			children = (
 				4492D5F0287D923400673D2A /* NetworkManager.swift */,
 				4492D6302891BA8C00673D2A /* StorageManager.swift */,
+				4469E28328A6B47F0003C0C4 /* CoreDataManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -445,12 +459,14 @@
 				4492D5F3287DAAAF00673D2A /* TableViewModel.swift in Sources */,
 				44743803287CA05D00C2888F /* SceneDelegate.swift in Sources */,
 				4492D606287EEA8300673D2A /* CocktailCollectionViewCell.swift in Sources */,
+				4443E5AF28A51D3600875DB1 /* FavoriteModel.xcdatamodeld in Sources */,
 				4492D62F288EC17000673D2A /* DrinkSceneViewModel.swift in Sources */,
 				4492D5ED287CB4B100673D2A /* Models.swift in Sources */,
 				4492D602287DF05700673D2A /* CustomNavigationController.swift in Sources */,
 				4492D6382892C63F00673D2A /* SearchViewModel.swift in Sources */,
 				4492D61D2886ACDE00673D2A /* SheetViewController.swift in Sources */,
 				4492D609287F638C00673D2A /* CocktailListViewModel.swift in Sources */,
+				4469E28428A6B47F0003C0C4 /* CoreDataManager.swift in Sources */,
 				4492D5FC287DDC5500673D2A /* MainCoordinator.swift in Sources */,
 				4492D600287DEB4F00673D2A /* CocktailListViewController.swift in Sources */,
 				4492D6252886C7D700673D2A /* HelperUIView + CornersRadius.swift in Sources */,
@@ -674,6 +690,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4443E5AD28A51D3600875DB1 /* FavoriteModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4443E5AE28A51D3600875DB1 /* FavoriteModel.xcdatamodel */,
+			);
+			currentVersion = 4443E5AE28A51D3600875DB1 /* FavoriteModel.xcdatamodel */;
+			path = FavoriteModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 447437F5287CA05D00C2888F /* Project object */;
 }
